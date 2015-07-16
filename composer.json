@@ -1,0 +1,34 @@
+{
+    "name": "wdteam/yii2-frozenui",
+    "description": "YII2 FrozenUI的CSS组件库",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","yii2 for frozenui"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "winds@dlf5.com",
+            "email": "winds@dlf5.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/frozenui": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wdteam\\frozenui\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://path.to/your/repo"
+        }
+    ]
+}
